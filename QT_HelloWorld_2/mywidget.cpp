@@ -11,6 +11,7 @@ MyWidget::MyWidget(QWidget *parent)
     QHBoxLayout *layout = new QHBoxLayout;
     layout->addWidget(helloButton);
     this->setLayout(layout);
+
 }
 
 MyWidget::~MyWidget() {}
