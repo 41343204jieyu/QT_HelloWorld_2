@@ -2,7 +2,7 @@
 
 #include <QPushButton>
 
-#include <QHBoxLayout>
+#include<QHBoxLayout>
 
 MyWidget::MyWidget(QWidget *parent)
     : QWidget(parent)
@@ -11,8 +11,6 @@ MyWidget::MyWidget(QWidget *parent)
     QHBoxLayout *layout = new QHBoxLayout;
     layout->addWidget(helloButton);
     this->setLayout(layout);
-
-
 }
 
 MyWidget::~MyWidget() {}
