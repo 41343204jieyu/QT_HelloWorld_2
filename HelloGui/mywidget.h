@@ -12,8 +12,8 @@ class MyWidget : public QWidget
 public:
     MyWidget(QWidget *parent = nullptr);
     ~MyWidget();
+
 private:
     QPushButton *helloButton;
-
 };
 #endif // MYWIDGET_H
